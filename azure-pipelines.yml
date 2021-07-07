@@ -8,11 +8,6 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-strategy:
-  matrix:
-
-    Python36:
-      python.version: '3.6'
 
 
 steps:
